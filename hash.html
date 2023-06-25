@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hashage de mot de passe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+  <h1>Hashage de mot de passe</h1>
+  <div class="container">
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" placeholder="Entrez votre mot de passe">
+    <button onclick="hashPassword()">Hasher</button>
+    <div class="result">
+      <label>Résultat du hachage :</label>
+      <textarea id="hashedPassword" readonly></textarea>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
